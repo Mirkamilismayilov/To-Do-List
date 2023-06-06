@@ -17,7 +17,7 @@ function addToDolist() {
   if(inputValue  == ""){
     input.value = "to do list boshdur"
     input.style.backgroundColor = "red";
-    setInterval(()=>{
+    setTimeout(()=>{
         input.style.backgroundColor = "";
         input.value = "";
     },1000)
